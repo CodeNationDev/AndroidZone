@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoTechAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Lista de elementos e navegación -->
+    <string-array name="nav_options">
+        <item>Visitia el sitio</item>
+        <item>Compártelo</item>
+        <item>Noticias</item>
+        <item>Últimas 24h</item>
+    </string-array>
+    <!-- Iconos de navegación -->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/sharenv</item>
+        <item>@drawable/rssnv</item>
+        <item>@drawable/lastnv</item>
+    </array>
+
+    <string name="title_activity_lector_feed">LectorFeed</string>
+    <string name="title_activity_cuerpo_noticia">CuerpoNoticia</string>
+
+    <string-array name="Constantes">
+        <item/>
+    </string-array>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="compartir">Compartir</string>
+    <string name="Compartir">Compartir</string>
+    <string name="cb25">25</string>
+    <string name="cb50">50</string>
+    <string name="cb75">75</string>
+    <string name="cb100">100</string>
+
+</resources>

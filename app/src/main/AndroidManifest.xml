@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gotechandroid.reader"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ 
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+             android:name="com.gotechandroid.reader.SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gotechandroid.reader.LectorFeed"
+            android:label="@string/title_activity_lector_feed" >
+        </activity>
+        <activity
+            android:name="com.gotechandroid.reader.CuerpoNoticia"
+            android:label="@string/title_activity_cuerpo_noticia" >
+        </activity>
+        <activity
+            android:name="com.gotechandroid.reader.MainActivity"
+            android:label="@string/app_name" >
+            >
+        </activity>
+    </application>
+
+</manifest>

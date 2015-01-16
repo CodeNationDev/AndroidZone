@@ -1,0 +1,5 @@
+I:\Proyectos Android\GoTechAndroid\app\build\intermediates\classes\debug
+I:\Proyectos Android\GoTechAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-615a02f19b3afd0fac77ede62ea98dcc06d8a043.jar
+I:\Proyectos Android\GoTechAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-7e16553fbacc7d6d3b5a5c81abae1dfbed5a3360.jar
+I:\Proyectos Android\GoTechAndroid\app\build\intermediates\pre-dexed\debug\classes-9e92d13c06259a98f0293db64c6196fb87093c37.jar
+I:\Proyectos Android\GoTechAndroid\app\build\intermediates\pre-dexed\debug\classes-83b41fb74508c697321024e42e0952d96890fe6a.jar
