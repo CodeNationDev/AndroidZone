@@ -56,7 +56,7 @@ public class CuerpoNoticia extends ActionBarActivity {
 			html = agregaEstilo(html,intent.getStringExtra("titulo"),intent.getStringExtra("fecha"), intent.getStringExtra("autor"));
 			settings.setBuiltInZoomControls(false);	
 			cuerpo.setBackgroundColor(Color.WHITE);
-			cuerpo.getSettings().setCacheMode(MODE_APPEND);
+			cuerpo.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
 			cuerpo.getSettings().setAppCacheEnabled(true);
 			cuerpo.loadDataWithBaseURL("file:///android_asset/", html, "text/html", Encoding.ISO_8859_1.toString(), null);
 			getActionBar().setTitle("Noticia");
@@ -118,25 +118,25 @@ public class CuerpoNoticia extends ActionBarActivity {
 	
 	private String traduceHTML(String html){
 		
-		html=html.replace("·", "&aacute");
-		html=html.replace("È", "&eacute");
-		html=html.replace("Ì", "&iacute");
-		html=html.replace("Û", "&oacute");
-		html=html.replace("˙", "&uacute");
+		html=html.replace("√°", "&aacute");
+		html=html.replace("√©", "&eacute");
+		html=html.replace("√≠", "&iacute");
+		html=html.replace("√≥", "&oacute");
+		html=html.replace("√∫", "&uacute");
 		
-		html=html.replace("¡", "&Aacute");
-		html=html.replace("…", "&Eacute");
-		html=html.replace("Õ", "&Iacute");
-		html=html.replace("”", "&Oacute");
-		html=html.replace("⁄", "&Uacute");
+		html=html.replace("√Å", "&Aacute");
+		html=html.replace("√â", "&Eacute");
+		html=html.replace("√ç", "&Iacute");
+		html=html.replace("√ì", "&Oacute");
+		html=html.replace("√ö", "&Uacute");
 		
-		html=html.replace("Ò", "&ntilde");
-		html=html.replace("—", "&Ntilde");
+		html=html.replace("√±", "&ntilde");
+		html=html.replace("√ë", "&Ntilde");
 		
 		//html=html.replace("!", "&#33");
-		html=html.replace("°", "&#161");
+		html=html.replace("ÔøΩ", "&#161");
 		html=html.replace("?", "&#63");
-		html=html.replace("ø", "&#191");
+		html=html.replace("ÔøΩ", "&#191");
 		//html=html.replace("%", "&#37");
 		
 		return html;
@@ -164,10 +164,10 @@ public class CuerpoNoticia extends ActionBarActivity {
 		
 		fecha = fecha.replace("Mon", "Lunes");
 		fecha = fecha.replace("Tue", "Martes");
-		fecha = fecha.replace("Wed", "MiÈrcoles");
+		fecha = fecha.replace("Wed", "Mi√©rcoles");
 		fecha = fecha.replace("Thu", "Jueves");
 		fecha = fecha.replace("Fri", "Viernes");
-		fecha = fecha.replace("Sat", "S·bado");
+		fecha = fecha.replace("Sat", "S√°bado");
 		fecha = fecha.replace("Sun", "Domingo");
 		
 		fecha = fecha.replace(" Jan ", " Enero ");
@@ -227,7 +227,7 @@ public class CuerpoNoticia extends ActionBarActivity {
 		}
 		
 		catch(Exception s){
-			Toast.makeText(this, "Uuuups, ha ocurrido un error al cargar la noticia. IntÈntalo m·s tarde: "+s.getMessage(), Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Uuuups, ha ocurrido un error al cargar la noticia. IntÔøΩntalo mÔøΩs tarde: "+s.getMessage(), Toast.LENGTH_LONG).show();
 		}
 		return html;
 	}

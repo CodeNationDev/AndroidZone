@@ -24,6 +24,7 @@ import android.widget.Toast;
 
 
 @SuppressLint("Recycle")
+@SuppressWarnings("ResourceType")
 public class MainActivity extends Activity{
 	String[] titulos;
 	private ActionBarDrawerToggle mDraweToggle;
@@ -66,10 +67,10 @@ public class MainActivity extends Activity{
      NavIcons = getResources().obtainTypedArray(R.array.navigation_iconos);
      titulos = getResources().getStringArray(R.array.nav_options);
      NavItem = new ArrayList<Item_object>();
-     NavItem.add(new Item_object(titulos[0],NavIcons.getResourceId(0, -1)));
-     NavItem.add(new Item_object(titulos[1], NavIcons.getResourceId(1, -1)));
-     NavItem.add(new Item_object(titulos[2], NavIcons.getResourceId(2, -1)));
-     NavItem.add(new Item_object(titulos[3], NavIcons.getResourceId(3, -1)));
+	 NavItem.add(new Item_object(titulos[0],NavIcons.getResourceId(0, -1)));
+     NavItem.add(new Item_object(titulos[1],NavIcons.getResourceId(1, -1)));
+     NavItem.add(new Item_object(titulos[2],NavIcons.getResourceId(2, -1)));
+     NavItem.add(new Item_object(titulos[3],NavIcons.getResourceId(3, -1)));
      
      NavAdapter = new NavigationAdapter(this, NavItem);
      NavList.setAdapter(NavAdapter);
@@ -184,8 +185,8 @@ public class MainActivity extends Activity{
     	
     	if(profile_fragment!=null){
     		FragmentManager fragmentManager = getFragmentManager();
-    		getActionBar().setTitle("Sígueme");
-    		getActionBar().setSubtitle("Pulsa las imágenes");
+    		getActionBar().setTitle("SÃ­gueme");
+    		getActionBar().setSubtitle("Pulsa las imÃ¡genes");
     		fragmentManager.beginTransaction().replace(R.id.content_frame, profile_fragment).commit();
     		NavList.setItemChecked(position, true);
     		NavList.setSelection(position);
@@ -213,7 +214,7 @@ public class MainActivity extends Activity{
     	if(lector_24h!=null){
     		FragmentManager fragmentManager = getFragmentManager();
     		getActionBar().setTitle("Noticias");
-    		getActionBar().setSubtitle("Últimas 24h");
+    		getActionBar().setSubtitle("Ãšltimas 24h");
     		fragmentManager.beginTransaction().replace(R.id.content_frame, lector_24h).commit();
     		NavList.setItemChecked(position, true);
     		NavList.setSelection(position);

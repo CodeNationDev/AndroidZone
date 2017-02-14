@@ -117,7 +117,7 @@ public class LectorFragment extends Fragment{
 		    	txNoticias[0]="No hay nuevas noticias para mostrar...";
 		    	txFechas[0]= cal.get(Calendar.DAY_OF_MONTH)+" de "+traduceFechas(cal.get(Calendar.MONTH)+"")+" de "+cal.get(Calendar.YEAR);
  		    	imNoticias[0]=R.drawable.logonombre;
- 		    	txResumen[0]="Mantente atento, pronto se publicar·n nuevos artÌculos en GoTechAndroid...";
+ 		    	txResumen[0]="Mantente atento, pronto se publicar√°n nuevos art√≠culos en GoTechAndroid...";
 		    }
 		    
 		    ListView listaNoticias = (ListView)rootView.findViewById(R.id.listaNoticias);
