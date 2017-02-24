@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gotechandroid.reader"
+    package="com.gotechandroid.feedreader"
     android:versionCode="3"
     android:versionName="1.2" >
 
@@ -17,7 +17,7 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme" >
         <activity
-             android:name="com.gotechandroid.reader.SplashScreen"
+             android:name="com.gotechandroid.feedreader.SplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black.NoTitleBar">
@@ -28,15 +28,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.gotechandroid.reader.LectorFeed"
+            android:name="com.gotechandroid.feedreader.LectorFeed"
             android:label="@string/title_activity_lector_feed" >
         </activity>
         <activity
-            android:name="com.gotechandroid.reader.CuerpoNoticia"
+            android:name="com.gotechandroid.feedreader.CuerpoNoticia"
             android:label="@string/title_activity_cuerpo_noticia" >
         </activity>
         <activity
-            android:name="com.gotechandroid.reader.MainActivity"
+            android:name="com.gotechandroid.feedreader.MainActivity"
             android:label="@string/app_name" >
             >
         </activity>

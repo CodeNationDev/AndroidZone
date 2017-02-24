@@ -3,89 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid_AndroidStudio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="51164350704c420d48e72ce626d20df264b25229">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_44957c908638889e857b48379e9c0f5a5c7048a5/classes.dex" />
+        sha1="38d85faea1ffb2174e1c60424dcf68519ff55c74">
+        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7cfced61d96092b2bc0ba581ca828880e0381890/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ElDeivid/.android/build-cache/c2f9a530bcf7d27c4a02b48875bfa86de52f9502/output/jars/classes.jar"
+        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid_AndroidStudio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_23ec2f803026172af14a6d351f5203406e8824ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ElDeivid/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-20.0.0_396b4c8de1129b4c662afbfb845bc4a20e20aab1/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ElDeivid/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-396b4c8de1129b4c662afbfb845bc4a20e20aab1.jar" />
-    </item>
-    <item
-        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/pre-dexed/debug/classes-62d6caab8cc40511c20cd8320164de07882ac9e0.jar" />
-    </item>
-    <item
-        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/pre-dexed/debug/classes-db55c0a30a41e18afcf862d5974e1b48a297549b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ElDeivid/.android/build-cache/5d487c00c1c3f89b810970e3b5e5cf417395ba9b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7f5639a4c2be35955868e0fdd5bbf5b9d040fb72/classes.dex" />
-    </item>
-    <item
-        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-7064b3790e619f318c32f1fbfd4d2b9de7cac297.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7fadb286755322aaaf03484e62370b1a2c5e1a75">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6f46e1d72ce9599268b6f0efb1fa6b1b774ca9d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ElDeivid/.android/build-cache/c2f9a530bcf7d27c4a02b48875bfa86de52f9502/output/jars/libs/internal_impl-20.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-20.0.0_02d641ed6412c5e3818c6e25bee0ba777154d04a/classes.dex" />
+        sha1="2fbdfef027f19939820542e6080e06ad9c1f8d21">
+        <dex dex="/Users/ElDeivid/StudioProjects/GoTechAndroid_AndroidStudio/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1d5caa9071b16181552b0f519b31966139661d13/classes.dex" />
     </item>
 
 </items>
